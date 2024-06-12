@@ -77,6 +77,7 @@ for(let i = 0; i < buts.length; i++){
         if(u%2 === 0){
             buts[i].innerText = 'X';
             stat[i]=1;
+            buts[i].disabled = true;
             CheckWin();
         }
         else{
